@@ -4,10 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-<<<<<<< HEAD
     background-color: rgb(1, 1, 15);
-=======
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
     font-family: 'Arimo', sans-serif;
 }
 
@@ -86,11 +83,7 @@ h2 {
     transition: 400ms ease-in-out 0s;
 }
 
-<<<<<<< HEAD
 .a-button:hover {
-=======
-a:hover {
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
     color: rgba(2, 96, 24, 0.991);
     background-color: white;
 }
@@ -249,14 +242,9 @@ a:hover {
 .card-container {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     justify-content: space-around;
     width: 90%;
     border-radius: 5px;
-=======
-    justify-content: space-between;
-    width: 90%;
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
 }
 
 .card {
@@ -274,13 +262,6 @@ a:hover {
     margin: 10px;
 }
 
-<<<<<<< HEAD
-=======
-.card-container:nth-child(2) .card{
-    justify-content: flex-start;
-    margin: 10px;
-}
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
 /* MAIN CARD alignment */
 
 /* MAIN CARD TEXT */
@@ -301,19 +282,6 @@ a:hover {
 }
 
 .card-container:nth-child(1) {
-<<<<<<< HEAD
-=======
-    justify-content: flex;
-    background-image: url('img/nasa-2W-QWAC0mzI-unsplash.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(0.6);
-}
-
-.card-container:nth-child(2) {
-    background-image: url('img/nasa-m35LirqP6y8-unsplash.jpg');
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -325,7 +293,6 @@ a:hover {
     height: fit-content;
     width: 40%;
     padding: 20px;
-<<<<<<< HEAD
     background-color: #0b0b30;
     font-family: sans-serif;
     letter-spacing: 1px;
@@ -336,12 +303,6 @@ a:hover {
     display: flex;
     gap: 20px;
     justify-content: start;
-=======
-    background-color: white;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    color: black
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
 }
 
 .card-container:nth-child(1) .card-wrapper::before {
@@ -398,21 +359,6 @@ a:hover {
     filter: unset;
 }
 
-<<<<<<< HEAD
-=======
-.card-container:hover .card > .card-wrapper::before {
-    opacity: 1;
-    width: 350px;
-    display: block;
-    height: 100px;
-}
-
-.card-container:hover .card > .card-wrapper p {
-    opacity: 1;
-    visibility: visible;
-    font-size: 14px;
-}
->>>>>>> 5a87f481aa9cc25577fe9b6ea4775216a822bbdb
 
 /* FOOTER */
 
